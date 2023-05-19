@@ -1,0 +1,45 @@
+/* navbar */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fdfcf8;
+    border: 1px solid black; 
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px rgb(79, 75, 75); 
+    height: 60px;
+}
+a {
+    margin: 1%;
+}
+#login {
+    margin-left: auto;
+}
+/* login */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login {
+    background-color: #fdfcf8;
+    margin-top: 10%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px rgb(79, 75, 75);
+}
+.login img, form {
+    margin: 1%;
+}
+input {
+    text-align: center;
+    width: 60%;
+    margin: 1%;
+}
+button {
+    margin: 1%;
+    width: 60%;
+}

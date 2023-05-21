@@ -12,6 +12,11 @@ nav {
 a {
     margin: 1%;
 }
+nav a {
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 1%;
+}
 #login {
     margin-left: auto;
 }
@@ -61,8 +66,16 @@ input {
     text-align: center;
     width: 100%;
     margin: 1%;
+    background-color: rgba(148, 4, 4, 0.783);
+    color: white;
 }
 button {
     margin-top: 5%;
     width: 100%;
+    background-color: rgba(148, 4, 4, 0.783);
+    color: white;
+}
+select {
+    background-color: rgba(148, 4, 4, 0.783);
+    color: white;
 }

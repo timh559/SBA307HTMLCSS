@@ -12,6 +12,11 @@ nav {
 a {
     margin: 1%;
 }
+nav a {
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 1%;
+}
 #login {
     margin-left: auto;
 }
